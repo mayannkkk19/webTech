@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="staff">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="personalDetails">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="fullName" type="xs:string"/>
+                            <xs:element name="age" type="xs:integer"/>
+                            <xs:element name="email" type="xs:string"/>
+                            <xs:element name="contact" type="xs:string"/>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="workDetails">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="division" type="xs:string"/>
+                            <xs:element name="role" type="xs:string"/>
+                            <xs:element name="income" type="xs:integer"/>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE staff [
+    <!ELEMENT staff (personalDetails, workDetails)>
+
+    <!ELEMENT personalDetails (fullName, age, email, contact)>
+    <!ELEMENT fullName (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT contact (#PCDATA)>
+
+    <!ELEMENT workDetails (division, role, income)>
+    <!ELEMENT division (#PCDATA)>
+    <!ELEMENT role (#PCDATA)>
+    <!ELEMENT income (#PCDATA)>
+]>
+
+<staff>
+    <personalDetails>
+        <fullName>Mayank Kumar Yadav</fullName>
+        <age>24</age>
+        <email>mayankkyadav76@gmail.com</email>
+        <contact>7398940566</contact>
+    </personalDetails>
+
+    <workDetails>
+        <division>Systems and Software</division>
+        <role>Backend Developer</role>
+        <income>790000</income>
+    </workDetails>
+</staff>

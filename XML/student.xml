@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<student>
+    <name>Mayank Kumar Yadav</name>
+    <rollno>2400320100676</rollno>
+    <branch>CSE</branch>
+</student>

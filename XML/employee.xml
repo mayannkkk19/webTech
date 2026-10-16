@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE employee [
+    <!ELEMENT employee (personalDetails, workDetails)>
+
+    <!ELEMENT personalDetails (fullName, age, email, contact)>
+    <!ELEMENT fullName (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT contact (#PCDATA)>
+
+    <!ELEMENT workDetails (division, role, income)>
+    <!ELEMENT division (#PCDATA)>
+    <!ELEMENT role (#PCDATA)>
+    <!ELEMENT income (#PCDATA)>
+]>
+
+<employee>
+    <personalDetails>
+        <fullName>Ankit Verma</fullName>
+        <age>24</age>
+        <email>ankit.verma@example.com</email>
+        <contact>9123456780</contact>
+    </personalDetails>
+
+    <workDetails>
+        <division>Information Technology</division>
+        <role>Backend Developer</role>
+        <income>62000</income>
+    </workDetails>
+</employee>

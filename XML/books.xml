@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Books>
+    <Book id="1">
+        <Title>Computer Science Fundamentals</Title>
+        <Author>xyz abc 123</Author>
+        <Price>10000</Price>
+    </Book>
+    <Book id="2">
+        <Title>Web Technology</Title>
+        <Author>abc xyz uvz</Author>
+        <Price>5000</Price>
+    </Book>
+    <Book id="3">
+        <Title>Database Management System</Title>
+        <Author>bbc abc ddc</Author>
+        <Price>5000</Price>
+    </Book>
+</Books>

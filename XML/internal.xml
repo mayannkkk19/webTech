@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+    <!ELEMENT student (name, rollno, branch)>
+    <!ELEMENT name (#PCDATA) >
+    <!ELEMENT rollno (#PCDATA) >
+    <!ELEMENT branch (#PCDATA) >
+]>
+
+<student>
+    <name>SAMI</name>
+    <rollno>2400320100303</rollno>
+    <branch>CSE21</branch>
+</student>
