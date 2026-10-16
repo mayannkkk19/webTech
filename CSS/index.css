@@ -1,0 +1,17 @@
+a {
+    color: black;
+    transition: 0.2s;
+    font-size: 40px;;
+}
+
+a:hover {
+    color:#ffff00;
+    
+    transition: 0.2s;
+}
+
+a:active {
+    color:#b8b804bc;
+    transition: 0.2s;
+    font-size: 50px;
+}
